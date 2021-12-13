@@ -47,5 +47,6 @@ server.get('*', async (req, res) => {
     res.send(html)
 })
 
-server.listen(8080)
-console.log('server is listening at localhost:8080')
+const port = 3000
+server.listen(port)
+console.log(`server is listening at localhost: ${port}`)

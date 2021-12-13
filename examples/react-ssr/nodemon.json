@@ -1,0 +1,14 @@
+{
+    "watch": [
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.js",
+        "**/*.jsx"
+    ],
+    "ignore": [
+        "dist"
+    ],
+    "ext": "ts,mjs,js,tsx,jsx,json,graphql",
+    "exec": "esbuild client.jsx --bundle --outfile=dist/client.js && esbuild server.jsx --bundle --platform=node --outfile=dist/server.js && node dist/server.js",
+    "legacyWatch": true
+}

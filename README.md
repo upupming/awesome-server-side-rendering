@@ -17,10 +17,12 @@
 ## Vite
 
 - [vite-ssr](https://github.com/frandiox/vite-ssr)
+- [Vite Docs - Server-Side Rendering](https://vitejs.dev/guide/ssr.html)
 
 ## Examples
 
 - [examples/vue-ssr](examples/vue-ssr)
+- [examples/react-ssr](examples/react-ssr)
 
 ## Videos
 
