@@ -13,6 +13,8 @@
 
 - [ReactDOMServer](https://reactjs.org/docs/react-dom-server.html)
 - [Redux Docs - Server Rendering](https://redux.js.org/usage/server-rendering)
+- [Next.js](https://nextjs.org/docs/basic-features/pages#server-side-rendering)
+- [Modern.js](https://modernjs.dev/docs/guides/features/server-side/web/ssr-and-spr)
 
 ## Vite
 
@@ -27,3 +29,7 @@
 ## Videos
 
 - [What is Server-Side Rendering? (Server-side Rendering with JavaScript Frameworks)](https://www.youtube.com/watch?v=GQzn7XRdzxY&ab_channel=Firebase)
+
+## Tools
+
+- [vite-plugin-remove-exports](https://github.com/egoist/vite-plugin-remove-exports): A Vite plugin to remove certain exports, helpful to help delete `getServerSideProps` in the client code.
