@@ -1,0 +1,30 @@
+{
+  "name": "react-router-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "build": "echo \"Build is not supported to simplify the prototype\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router": "6.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@vitejs/plugin-react": "1.2.0",
+    "esno": "^0.12.1",
+    "nodemon": "^2.0.15",
+    "npm-run-all": "4.1.5",
+    "react-router-dom": "6.2.1",
+    "vite": "^2.7.1"
+  }
+}

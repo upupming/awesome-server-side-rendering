@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json.schemastore.org/nodemon.json",
+  "watch": ["src", "nodemon.json"],
+  "ext": "ts,js,mjs,jsx,tsx,json",
+  "exec": "esno src/server.entry.jsx"
+}
